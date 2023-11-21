@@ -1,0 +1,27 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.taskName{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.time{
+    margin-top: 10px;
+    margin-bottom: 10px;
+ 
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 2px solid black;
+    z-index: 1000;
+  }
+  
